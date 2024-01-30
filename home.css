@@ -1,0 +1,92 @@
+.cell {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: red;
+  /*   border: 5px solid black; */
+}
+.cellBlue {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: blue;
+  /*   border: 5px solid black; */
+}
+
+#tl {
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+}
+#tr {
+  border-left: 5px solid black;
+  border-bottom: 5px solid black;
+}
+#br {
+  border-right: 5px solid black;
+  border-top: 5px solid black;
+}
+#bl {
+  border-left: 5px solid black;
+  border-top: 5px solid black;
+}
+#ml {
+  border-right: 5px solid black;
+}
+#mr {
+  border-left: 5px solid black;
+}
+#tm {
+  border-bottom: 5px solid black;
+}
+#bm {
+  border-top: 5px solid black;
+}
+.top-row {
+  display: flex;
+  flex-display: row;
+}
+.top-row {
+  display: flex;
+  flex-display: row;
+}
+.bottom-row {
+  display: flex;
+  flex-display: row;
+}
+.middle-row {
+  display: flex;
+  flex-display: row;
+}
+.playing-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sub-header {
+  margin-top: 0px;
+}
+#player-turn {
+}
+
+.win-counter {
+  display: flex;
+  flex-direction: column;
+}
+.x-div {
+  display: flex;
+  flex-direction: row;
+}
+.o-div {
+  display: flex;
+  flex-direction: row;
+}
+
+h3 {
+  margin: 3px;
+}
